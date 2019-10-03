@@ -25,4 +25,11 @@ public class RecipeServiceImpl implements RecipeService {
         repositary.findAll().iterator().forEachRemaining(recipes::add);
         return recipes;
     }
+
+    @Override
+    public Recipe findById(Long id){
+        log.info("I am in service...");
+        return repositary.findById(id).get();
+
+    }
 }
