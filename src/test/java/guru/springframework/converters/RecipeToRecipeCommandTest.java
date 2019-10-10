@@ -99,5 +99,4 @@ public class RecipeToRecipeCommandTest {
         assertEquals(2, command.getIngredients().size());
 
     }
-
 }

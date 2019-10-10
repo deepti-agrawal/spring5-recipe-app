@@ -45,5 +45,4 @@ public class UnitOfMeasureToUnitOfMeasureCommandTest {
         assertEquals(LONG_VALUE, uomc.getId());
         assertEquals(DESCRIPTION, uomc.getDescription());
     }
-
 }

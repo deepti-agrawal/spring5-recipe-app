@@ -12,5 +12,4 @@ public class Spring5ReceipeAppApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
 }

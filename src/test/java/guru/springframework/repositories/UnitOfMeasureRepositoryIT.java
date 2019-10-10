@@ -41,5 +41,4 @@ public class UnitOfMeasureRepositoryIT {
 
         assertEquals("Cup", uomOptional.get().getDescription());
     }
-
 }

@@ -51,5 +51,4 @@ public class UnitOfMeasureServiceImplTest {
         assertEquals(2, commands.size());
         verify(unitOfMeasureRepository, times(1)).findAll();
     }
-
 }
